@@ -5,6 +5,11 @@ import java.util.Scanner;
 public class OrderManager {
     private List<Order> orders;
 
+    @Override
+    public int hashCode() {
+        return super.hashCode();
+    }
+
     public OrderManager() {
         orders = new ArrayList<>();
     }
